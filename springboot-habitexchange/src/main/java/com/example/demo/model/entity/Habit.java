@@ -13,6 +13,8 @@ import com.example.demo.model.enums.Weekday;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -86,9 +88,11 @@ public class Habit {
 	
 	// 習慣頻率：ENUM('daily','weekly','monthly','once','unlimited','custom')
 	// 預設 'daily'
-	@Column(name = "frequency")
+	@Enumerated(EnumType.STRING)
+	@Column(name = "frequency",
+			columnDefinition = "ENUM('daily','weekly','monthly','once','unlimited','custom') DEFAULT 'daily'")
 	private Frequency frequency = Frequency.DAILY;
-	
+
 	// 週期內預期完成次數: INT NULL DEFAULT 1
 	@Column(name = "target_times", columnDefinition = "INT DEFAULT 1")
 	private Integer targetTimes;

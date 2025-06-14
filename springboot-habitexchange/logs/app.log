@@ -1,20 +1,20 @@
-2025-06-03T16:05:48.676+08:00  INFO 14516 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : Starting SpringbootHabitexchangeApplication using Java 21.0.6 with PID 14516 (D:\Documents\Coding\project\HabitExchange\springboot-habitexchange\target\classes started by user in D:\Documents\Coding\project\HabitExchange\springboot-habitexchange)
-2025-06-03T16:05:48.680+08:00  INFO 14516 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : No active profile set, falling back to 1 default profile: "default"
-2025-06-03T16:05:49.296+08:00  INFO 14516 --- [springboot-habitexchange] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-03T16:05:49.330+08:00  INFO 14516 --- [springboot-habitexchange] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
-2025-06-03T16:05:49.728+08:00  INFO 14516 --- [springboot-habitexchange] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
-2025-06-03T16:05:49.749+08:00  INFO 14516 --- [springboot-habitexchange] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-06-03T16:05:49.749+08:00  INFO 14516 --- [springboot-habitexchange] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
-2025-06-03T16:05:49.808+08:00  INFO 14516 --- [springboot-habitexchange] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-06-03T16:05:49.809+08:00  INFO 14516 --- [springboot-habitexchange] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1086 ms
-2025-06-03T16:05:49.979+08:00  INFO 14516 --- [springboot-habitexchange] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-03T16:05:50.040+08:00  INFO 14516 --- [springboot-habitexchange] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
-2025-06-03T16:05:50.082+08:00  INFO 14516 --- [springboot-habitexchange] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-03T16:05:50.377+08:00  INFO 14516 --- [springboot-habitexchange] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-03T16:05:50.409+08:00  INFO 14516 --- [springboot-habitexchange] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-03T16:05:50.560+08:00  INFO 14516 --- [springboot-habitexchange] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1584c019
-2025-06-03T16:05:50.562+08:00  INFO 14516 --- [springboot-habitexchange] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-03T16:05:50.640+08:00  INFO 14516 --- [springboot-habitexchange] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-06-14T12:27:54.275+08:00  INFO 27372 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : Starting SpringbootHabitexchangeApplication using Java 21.0.6 with PID 27372 (D:\Documents\Coding\project\HabitExchange\springboot-habitexchange\target\classes started by user in D:\Documents\Coding\project\HabitExchange\springboot-habitexchange)
+2025-06-14T12:27:54.282+08:00  INFO 27372 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : No active profile set, falling back to 1 default profile: "default"
+2025-06-14T12:27:55.198+08:00  INFO 27372 --- [springboot-habitexchange] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-14T12:27:55.280+08:00  INFO 27372 --- [springboot-habitexchange] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2025-06-14T12:27:55.913+08:00  INFO 27372 --- [springboot-habitexchange] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2025-06-14T12:27:55.937+08:00  INFO 27372 --- [springboot-habitexchange] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-14T12:27:55.938+08:00  INFO 27372 --- [springboot-habitexchange] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-14T12:27:56.011+08:00  INFO 27372 --- [springboot-habitexchange] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-14T12:27:56.011+08:00  INFO 27372 --- [springboot-habitexchange] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1674 ms
+2025-06-14T12:27:56.255+08:00  INFO 27372 --- [springboot-habitexchange] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-14T12:27:56.349+08:00  INFO 27372 --- [springboot-habitexchange] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-14T12:27:56.418+08:00  INFO 27372 --- [springboot-habitexchange] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-14T12:27:56.961+08:00  INFO 27372 --- [springboot-habitexchange] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-14T12:27:57.024+08:00  INFO 27372 --- [springboot-habitexchange] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-14T12:27:57.263+08:00  INFO 27372 --- [springboot-habitexchange] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ccdacf5
+2025-06-14T12:27:57.267+08:00  INFO 27372 --- [springboot-habitexchange] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-14T12:27:57.425+08:00  INFO 27372 --- [springboot-habitexchange] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.34
@@ -22,33 +22,33 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-06-03T16:05:51.450+08:00  INFO 14516 --- [springboot-habitexchange] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-03T16:05:52.026+08:00  INFO 14516 --- [springboot-habitexchange] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-03T16:05:52.439+08:00  INFO 14516 --- [springboot-habitexchange] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
-2025-06-03T16:05:52.445+08:00  INFO 14516 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : Started SpringbootHabitexchangeApplication in 4.187 seconds (process running for 4.704)
-2025-06-03T16:32:10.153+08:00  INFO 14516 --- [springboot-habitexchange] [RMI TCP Connection(37)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-06-03T16:32:10.159+08:00  INFO 14516 --- [springboot-habitexchange] [RMI TCP Connection(37)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-06-03T16:32:10.184+08:00  INFO 14516 --- [springboot-habitexchange] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-06-03T16:32:10.192+08:00  INFO 14516 --- [springboot-habitexchange] [RMI TCP Connection(37)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-06-03T16:32:10.195+08:00  INFO 14516 --- [springboot-habitexchange] [RMI TCP Connection(37)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-06-03T16:32:10.201+08:00  INFO 14516 --- [springboot-habitexchange] [RMI TCP Connection(37)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-06-03T16:32:12.693+08:00  INFO 95948 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : Starting SpringbootHabitexchangeApplication using Java 21.0.6 with PID 95948 (D:\Documents\Coding\project\HabitExchange\springboot-habitexchange\target\classes started by user in D:\Documents\Coding\project\HabitExchange\springboot-habitexchange)
-2025-06-03T16:32:12.695+08:00  INFO 95948 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : No active profile set, falling back to 1 default profile: "default"
-2025-06-03T16:32:13.490+08:00  INFO 95948 --- [springboot-habitexchange] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-03T16:32:13.528+08:00  INFO 95948 --- [springboot-habitexchange] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
-2025-06-03T16:32:14.154+08:00  INFO 95948 --- [springboot-habitexchange] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
-2025-06-03T16:32:14.181+08:00  INFO 95948 --- [springboot-habitexchange] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-06-03T16:32:14.182+08:00  INFO 95948 --- [springboot-habitexchange] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
-2025-06-03T16:32:14.265+08:00  INFO 95948 --- [springboot-habitexchange] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-06-03T16:32:14.265+08:00  INFO 95948 --- [springboot-habitexchange] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1519 ms
-2025-06-03T16:32:14.500+08:00  INFO 95948 --- [springboot-habitexchange] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-03T16:32:14.593+08:00  INFO 95948 --- [springboot-habitexchange] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
-2025-06-03T16:32:14.645+08:00  INFO 95948 --- [springboot-habitexchange] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-03T16:32:15.056+08:00  INFO 95948 --- [springboot-habitexchange] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-03T16:32:15.105+08:00  INFO 95948 --- [springboot-habitexchange] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-03T16:32:15.338+08:00  INFO 95948 --- [springboot-habitexchange] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4492b393
-2025-06-03T16:32:15.343+08:00  INFO 95948 --- [springboot-habitexchange] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-03T16:32:15.468+08:00  INFO 95948 --- [springboot-habitexchange] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-06-14T12:27:58.974+08:00  INFO 27372 --- [springboot-habitexchange] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-14T12:27:59.713+08:00  INFO 27372 --- [springboot-habitexchange] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-14T12:28:00.803+08:00  INFO 27372 --- [springboot-habitexchange] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2025-06-14T12:28:00.815+08:00  INFO 27372 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : Started SpringbootHabitexchangeApplication in 7.315 seconds (process running for 8.09)
+2025-06-14T12:30:59.548+08:00  INFO 27372 --- [springboot-habitexchange] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-06-14T12:30:59.555+08:00  INFO 27372 --- [springboot-habitexchange] [RMI TCP Connection(11)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-14T12:30:59.579+08:00  INFO 27372 --- [springboot-habitexchange] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-14T12:30:59.585+08:00  INFO 27372 --- [springboot-habitexchange] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-14T12:30:59.589+08:00  INFO 27372 --- [springboot-habitexchange] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-14T12:30:59.604+08:00  INFO 27372 --- [springboot-habitexchange] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-14T12:31:02.443+08:00  INFO 19004 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : Starting SpringbootHabitexchangeApplication using Java 21.0.6 with PID 19004 (D:\Documents\Coding\project\HabitExchange\springboot-habitexchange\target\classes started by user in D:\Documents\Coding\project\HabitExchange\springboot-habitexchange)
+2025-06-14T12:31:02.445+08:00  INFO 19004 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : No active profile set, falling back to 1 default profile: "default"
+2025-06-14T12:31:03.283+08:00  INFO 19004 --- [springboot-habitexchange] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-14T12:31:03.385+08:00  INFO 19004 --- [springboot-habitexchange] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2025-06-14T12:31:04.176+08:00  INFO 19004 --- [springboot-habitexchange] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2025-06-14T12:31:04.206+08:00  INFO 19004 --- [springboot-habitexchange] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-14T12:31:04.208+08:00  INFO 19004 --- [springboot-habitexchange] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-14T12:31:04.288+08:00  INFO 19004 --- [springboot-habitexchange] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-14T12:31:04.290+08:00  INFO 19004 --- [springboot-habitexchange] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1793 ms
+2025-06-14T12:31:04.516+08:00  INFO 19004 --- [springboot-habitexchange] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-14T12:31:04.601+08:00  INFO 19004 --- [springboot-habitexchange] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-14T12:31:04.659+08:00  INFO 19004 --- [springboot-habitexchange] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-14T12:31:05.155+08:00  INFO 19004 --- [springboot-habitexchange] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-14T12:31:05.211+08:00  INFO 19004 --- [springboot-habitexchange] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-14T12:31:05.493+08:00  INFO 19004 --- [springboot-habitexchange] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ef0e576
+2025-06-14T12:31:05.498+08:00  INFO 19004 --- [springboot-habitexchange] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-14T12:31:05.606+08:00  INFO 19004 --- [springboot-habitexchange] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.34
@@ -56,8 +56,7 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-06-03T16:32:16.894+08:00  INFO 95948 --- [springboot-habitexchange] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-03T16:32:17.665+08:00  INFO 95948 --- [springboot-habitexchange] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-03T16:32:18.363+08:00  INFO 95948 --- [springboot-habitexchange] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
-2025-06-03T16:32:18.377+08:00  INFO 95948 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : Started SpringbootHabitexchangeApplication in 6.352 seconds (process running for 7.006)
-2025-06-03T19:20:38.937+08:00  WARN 95948 --- [springboot-habitexchange] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m51s861ms233µs600ns).
+2025-06-14T12:31:07.265+08:00  INFO 19004 --- [springboot-habitexchange] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-14T12:31:07.563+08:00  INFO 19004 --- [springboot-habitexchange] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-14T12:31:08.622+08:00  INFO 19004 --- [springboot-habitexchange] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2025-06-14T12:31:08.636+08:00  INFO 19004 --- [springboot-habitexchange] [main] c.e.d.SpringbootHabitexchangeApplication : Started SpringbootHabitexchangeApplication in 6.869 seconds (process running for 7.541)
